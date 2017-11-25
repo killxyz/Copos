@@ -1,0 +1,493 @@
+﻿/* Scrollbar styles */
+
+    ::-webkit-scrollbar {
+        background: none;
+        top: 0px;
+        right: 0px;
+        width: 5px;
+        height: 0px;
+}
+
+    ::-webkit-scrollbar-track {
+        background: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: black;  
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: white;
+        height: 10px; 
+    }
+
+       /* H1  styles*/
+
+    h1{
+        background: black;
+        position: relative;
+        font-size: 39px;
+        font-weight: normal;
+        color: transparent;
+        background: linear-gradient(
+                    rgb(6, 6, 6) 15%,
+                    rgb(20, 20, 20) 35%,
+                    rgb(51, 51, 51) 65%,
+                    rgb(6, 6, 6) 95%
+                    );
+        -webkit-background-clip: text;
+        top: 19px;
+        left: 90px;
+        height: auto;
+        width: 160px;
+        padding: 7px;
+        margin: 0px;
+        border: 2px solid transparent;
+    }
+
+    h2{
+        background: red;
+        position: relative;
+        font-family: Impact;
+        font-size: 36px;
+        font-weight: normal;
+        text-transform: none;
+        color: transparent;
+        background: linear-gradient( 130deg, red 10%, #400909 30%, black 65% );
+        -webkit-background-clip: text;
+        top: 50px;
+        left: -5px;
+        height: auto;
+        width: 300px;
+        padding: 7px;
+        margin: 0px;
+        border: 2px solid transparent;
+    
+    }
+
+    h3 {
+        background: none;
+        position: relative;
+        font-size: 10px;
+        top: -15px;
+        left: 3px;
+    }
+
+    ppp {
+        background: yellow;
+        width: 1000px;
+        position: relative;
+        top: 30px;
+        left: 7px;
+        text-align: center;
+        font-size: 17px;
+        font-family: Arial;
+    }
+    
+    *{
+     padding: 0px;
+     margin: 0px;
+     text-transform: none;
+     color: auto;
+
+    }
+
+    .nav li a {
+        background-color: transparent;
+        display: block;
+        top: 195px;
+        left: 100px;
+        position: relative;
+        box-shadow: 4px 5px rgba(0, 0, 0, 0)
+        z-index: 1px;
+        height: 3px;
+        width: 1px;
+        text-decoration: none;
+        padding: 10px 50px 20px 15px;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .nav li a:hover{
+        background-color: rgba(0, 0, 0, 0.28);
+        position: relative;
+        z-index: 1px;
+        height: 0px;
+        width: 1px; 
+    }
+
+
+    /* Boxes */
+    
+    .boxstar{
+        background: none;
+        height: 678px;
+        width: 1359px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        text-decoration:  none;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .boxtitle{
+        background: none;
+        position: absolute;
+        text-align: center;
+        height: 100px;
+        width: 1359px;
+        top: 0px;
+        right: 0px;
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .boxcontent{
+        background: none;
+        position: absolute;
+        height: 100px;
+        width: 1359px;
+        top: 60px;
+        right: 0px;
+        padding: 0px 0px 0px 0px; 
+    }
+
+    .audiostar{
+        background: transparent;
+        position: absolute;
+        top: 3px;
+        right: 60px; 
+
+    }
+
+    .audiomusic{
+        background: transparent;
+        position: absolute;
+        top: 3px;
+        left: 60px;
+    }
+
+    .videostar{
+        background: transparent;
+        position: absolute;
+        top: -50px;
+        left: 25px;
+    }
+
+    #musicbox:hover {
+        bottom:-50px;
+    }
+
+    .musicbox{
+        background-color: rgba(0, 0, 0, 0.19); 
+        position:fixed;
+        text-align: center;
+        bottom: 0px;
+        left: 0px;
+        width: 75px; 
+        height: 39px;
+        opacity: 1;
+        -webkit-transition: all 1.5s ease;
+        -moz-transition: all 1.5s ease;
+        -o-transition: all 1.5s ease;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        border-radius: 10px 50px 0px 0px;
+        z-index: 101;
+    }
+
+    .boxset1{
+        background-image: url('http://i.imgur.com/FvPe4wC.jpg');
+        background-color: beige;
+        background-position: left top;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 80px;
+        width: 1359px;
+        position: absolute;
+        top: 678px;
+        left: 0px;
+    }
+
+    .box1{
+        background-image: url('http://i.imgur.com/dRMkKPi.png');
+        background-color: white;
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 1366px 678px;
+        position: absolute;
+        height: 678px;
+        width: 1359px;
+        top: 758px;
+        left: 0px;
+    }
+
+    .boxset2{
+        background-image: url('http://i.imgur.com/FvPe4wC.jpg');
+        background-color: beige;
+        background-position: left top;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 80px;
+        width: 1359px;
+        position: absolute;
+        top: 1436px;
+        left: 0px;
+    }
+    
+    .box2{
+        background-image: url('http://i.imgur.com/hIvhpMt.png');
+        background-color: red;
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        height: 678px;
+        width: 1359px;
+        top: 1516px;
+        left: 0px;
+    }
+
+    .boxset3{
+        background-image: url('http://i.imgur.com/FvPe4wC.jpg');
+        background-color: beige;
+        background-position: left top;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 80px;
+        width: 1359px;
+        position: absolute;
+        top: 2194px;
+        left: 0px;
+    }
+
+    .box3{
+        background-image: url('http://i.imgur.com/9iUgWFH.jpg');
+        background-color: black;
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        height: 678px;
+        width: 1359px;
+        top: 2274px;
+        left: 0px;
+    }
+
+    .boxset4{
+        background-image: url('http://i.imgur.com/FvPe4wC.jpg');
+        background-color: beige;
+        background-position: left top;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 80px;
+        width: 1359px;
+        position: absolute;
+        top: 2952px;
+        left: 0px;
+    }
+
+    .box4{
+        background-image: url('http://i.imgur.com/q6T5oRS.jpg');
+        background-color: black;
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        height: 678px;
+        width: 1359px;
+        top: 3032px;
+        left: 0px;
+    }
+
+    .boxset5{
+        background-image: url('http://i.imgur.com/FvPe4wC.jpg');
+        background-color: beige;
+        background-position: left top;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 80px;
+        width: 1359px;
+        position: absolute;
+        top: 3710px;
+        left: 0px;
+    }
+
+    .box5{
+        background-image: url('http://i.imgur.com/80JUno8.jpg');
+        background-color: red;
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        height: 678px;
+        width: 1359px;
+        top: 3790px;
+        left: 0px;
+    }
+    
+    .boxset6{
+        background-image: url('http://i.imgur.com/FvPe4wC.jpg');
+        background-color: beige;
+        background-position: left top;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 80px;
+        width: 1359px;
+        position: absolute;
+        top: 4468px;
+        left: 0px;
+    }
+
+    .box6{
+        background-image: url('http://i.imgur.com/4weUZac.jpg');
+        background-color: silver;
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: cover;;
+        position: absolute;
+        height: 678px;
+        width: 1359px;
+        top: 4548px;
+        left: 0px;
+    }
+
+    .boxset7{
+        background-image: url('http://i.imgur.com/FvPe4wC.jpg');
+        background-color: beige;
+        background-position: left top;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 80px;
+        width: 1359px;
+        position: absolute;
+        top: 5226px;
+        left: 0px;
+    }
+
+    .box7{
+        background-image: url('http://i.imgur.com/W6lDWMm.jpg');
+        background-color: darkblue;
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        height: 678px;
+        width: 1359px;
+        top: 5306px;
+        left: 0px;
+    }
+
+    .boxanime{
+        background-image: url('http://i.imgur.com/NVJXaIc.jpg');
+        background-color: red;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: cover;
+        z-index: 100;
+        position: absolute;
+        height: 678px;
+        width: 1359px;
+        top: 6064px;
+        left: 0px;
+    }
+
+    .boxsetanime{
+        background-image: url('http://i.imgur.com/FvPe4wC.jpg');
+        background-color: blue;
+        background-position: left top;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 80px;
+        width: 1359px;
+        position: absolute;
+        top: 6742px;
+        left: 0px;
+    }
+
+    .boxsetend{
+        background-image: url('http://i.imgur.com/FvPe4wC.jpg');
+        background-color: beige;
+        background-position: left top;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 80px;
+        width: 1359px;
+        position: absolute;
+        top: 5984px;
+        left: 0px;
+    }
+
+    .boxend{
+        background-image: url('http://i.imgur.com/Tub3ENE.png');
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+        z-index: -100px;
+        position: absolute;
+        height: 678px;
+        width: 1359px;
+        top: 6822px;
+        left: 0px;
+    }
+ 
+     .textmove{
+        background-position: none;
+        position: absolute;
+        text-align: center; 
+        height: 100px;
+        width: 790px;
+        top: 565px;
+        left: 475px;
+        font-family: Arial;
+        transform: rotate(4deg);
+     }
+
+     .layer1 {
+        border:solid 4px #D75777;
+        bottom: 0px;
+        right: -200px;
+        text-align: center;
+        position: absolute; 
+        width: 490px;
+        height: 290px;
+        background: black;
+        margin-right: 200px;
+        border-radius: 0px 45px 0px 45px;
+        -moz-border-radius: 0px 45px 0px 45px;
+        -webkit-border-radius: 0px 45px 0px 45px;
+    }
+
+    #boxb:hover {
+        top: 0px;
+    }
+
+    .boxb{
+        background-color: #e0dbd7; 
+        position: absolute;
+        text-align: center;
+        top: -410px;
+        left: 30px;
+        width: 280px; 
+        height: 450px;
+        opacity: 1.5;
+        -webkit-transition: all 2.0s ease;
+        -moz-transition: all 2.0s ease;
+        -o-transition: all 2.0s ease;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    #sno{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        pointer-events: none;
+    }
